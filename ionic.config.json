@@ -1,0 +1,7 @@
+{
+  "name": "trucks",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
