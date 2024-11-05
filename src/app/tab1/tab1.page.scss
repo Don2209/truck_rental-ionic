@@ -1,0 +1,169 @@
+ion-header {
+    ion-toolbar {
+      ion-buttons {
+        display: flex;
+        align-items: center;
+  
+        ion-avatar {
+          margin-right: 10px;
+        }
+  
+      }
+  
+      ion-buttons[slot="end"] {
+        ion-button {
+          ion-icon {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  
+  .centered-segment-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; /* Adjust based on your design */
+    ion-segment {
+      --background: transparent;
+      --indicator-color: #3880ff;
+      --color-checked: #3880ff;
+      --button-background-checked: rgba(56, 128, 255, 0.1);
+      border: 1px solid #3880ff; /* Visible border */
+      border-radius: 20px;
+      width: 90%;
+    }
+    
+    ion-segment-button {
+      font-weight: bold;
+      color: #555;
+    }
+  }
+  
+ 
+  .hello{
+    font-weight: 300;
+    font-size: 14px;
+    color: #757575;
+  }
+
+.user-info {
+  display:flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+ion-content {
+  --background: #f5f5f5;
+}
+@media (prefers-color-scheme: dark){
+  ion-content {
+    --background: #1c1c1c;
+  }
+  
+
+}
+@media (prefers-color-scheme:dark){
+  .Dark-mode {
+    color: #fff1ff;
+
+  }
+}
+
+
+/*Profile Card*/ 
+.profile-card {
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.profile-card ion-label {
+  display: block;
+  font-weight: bold;
+  color: #000;
+  font-size: 12px auto; 
+}
+
+.location {
+  color: #777;
+  font-size: 14px;
+   
+  margin:10px;
+  
+}
+
+/* Segment Tabs */
+ion-segment {
+  margin: 15px 10px;
+  --indicator-color: #28a745; /* Green */
+}
+
+ion-segment-button {
+  --color-checked: #28a745;
+  --color: #ffff;
+}
+
+/* Ride Card */
+.ride-card {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.ride-card .date {
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
+}
+
+.ride-card .status {
+  font-weight: bold;
+  color: #28a745; /* Completed Status Color */
+  text-align: right;
+}
+
+.ride-card .price {
+  color: #28a745;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.ride-card ion-item {
+  --inner-padding: 5px;
+}
+
+.pickup, .dropoff {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Bottom Tabs */
+ion-tab-bar {
+  --background: #fff;
+  border-top: 1px solid #eee;
+}
+
+ion-tab-button {
+  color: #666;
+}
+
+ion-tab-button[tab="home"] {
+  --color-selected: #28a745;
+}
+.icons {
+  fill: #28a745;
+}
+
+
+.named {
+  margin: 10px;
+ 
+
+}
+
+ion-fab-button {
+  
+  --background: #28a745;
+  --color: white;
+}
+
